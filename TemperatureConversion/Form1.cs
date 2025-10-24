@@ -21,7 +21,7 @@ namespace TemperatureConversion
             foreach (var b in digiBtns) b.Click += DigiBtns_Click;
             // b.Click 是「事件」, 按鈕被點擊的通知
             // += 是「訂閱事件」的寫法 //-= 是「取消訂閱」的寫法
-            // digiBtns_Click 是「方法」, 當事件被觸發時會執行的方法
+            // DigiBtns_Click 是「方法」, 當事件被觸發時會執行的方法
 
             btnDot.Click += BtnDot_Click;
             // btnDot 有獨立規則（不能重複）,所以另外寫一個事件處理方法
